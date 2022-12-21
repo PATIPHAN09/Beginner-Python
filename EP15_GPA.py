@@ -1,10 +1,6 @@
 #โปรแกรมคำนวนเกรดเหมือนทำข้อสอบ
 G = int(input("กรุณาระบุเกรดของเอ็งมา : "))
 
-#result = "F"
-
-
-
 if G >= 80:
     result = "A"
 elif G >= 70:
@@ -15,9 +11,5 @@ elif G >= 50:
     result = "D"
 else :
     result = "F"     
-    
-    
-    
-    
+
 print(result)
-    
